@@ -1,0 +1,1742 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>AI Mastery 2026 - Earn ₹5L+/Month Creating Faceless YouTube Videos</title>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;800;900&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet" />
+        <!-- Meta Pixel Code -->
+        <script>
+            !(function (f, b, e, v, n, t, s) {
+                if (f.fbq) return;
+                n = f.fbq = function () {
+                    n.callMethod ? n.callMethod.apply(n, arguments) : n.queue.push(arguments);
+                };
+                if (!f._fbq) f._fbq = n;
+                n.push = n;
+                n.loaded = !0;
+                n.version = "2.0";
+                n.queue = [];
+                t = b.createElement(e);
+                t.async = !0;
+                t.src = v;
+                s = b.getElementsByTagName(e)[0];
+                s.parentNode.insertBefore(t, s);
+            })(window, document, "script", "https://connect.facebook.net/en_US/fbevents.js");
+            fbq("init", "748250907666483");
+            fbq("track", "PageView");
+        </script>
+        <noscript><img height="1" width="1" style="display: none" src="https://www.facebook.com/tr?id=748250907666483&ev=PageView&noscript=1" /></noscript>
+        <!-- End Meta Pixel Code -->
+        <style>
+            *,
+            *::before,
+            *::after {
+                box-sizing: border-box;
+                margin: 0;
+                padding: 0;
+            }
+            :root {
+                --blue: #6c5ce7;
+                --blue-dark: #5849c2;
+                --blue-light: #a29bfe;
+                --blue-pale: #ede9ff;
+                --accent: #00cec9;
+                --bg: #ffffff;
+                --bg2: #f7f6ff;
+                --card: #ffffff;
+                --border: rgba(108, 92, 231, 0.15);
+                --text: #1a1630;
+                --muted: #6b6882;
+                --gold: #fdcb6e;
+                --green: #00b894;
+            }
+            html {
+                scroll-behavior: smooth;
+            }
+            body {
+                font-family: "Inter", sans-serif;
+                background: var(--bg);
+                color: var(--text);
+                overflow-x: hidden;
+                line-height: 1.6;
+            }
+
+            /* FLASH BAR */
+            .flash-bar {
+                background: linear-gradient(90deg, var(--blue), var(--blue-light));
+                text-align: center;
+                padding: 10px 20px;
+                font-family: "Montserrat", sans-serif;
+                font-weight: 700;
+                font-size: 14px;
+                position: sticky;
+                top: 0;
+                z-index: 1000;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                gap: 16px;
+                flex-wrap: wrap;
+                color: #fff;
+            }
+            .flash-bar .timer {
+                background: rgba(0, 0, 0, 0.18);
+                border-radius: 6px;
+                padding: 3px 12px;
+                font-size: 16px;
+                letter-spacing: 2px;
+            }
+
+            /* NAVBAR */
+            nav {
+                background: rgba(255, 255, 255, 0.97);
+                backdrop-filter: blur(12px);
+                border-bottom: 1px solid var(--border);
+                position: sticky;
+                top: 40px;
+                z-index: 999;
+                padding: 0 40px;
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                height: 64px;
+                box-shadow: 0 2px 20px rgba(108, 92, 231, 0.07);
+            }
+            .nav-logo {
+                font-family: "Montserrat", sans-serif;
+                font-weight: 900;
+                font-size: 20px;
+                color: var(--text);
+                text-decoration: none;
+            }
+            .nav-logo span {
+                color: var(--blue);
+            }
+            .nav-links {
+                display: flex;
+                gap: 28px;
+                list-style: none;
+            }
+            .nav-links a {
+                color: var(--muted);
+                text-decoration: none;
+                font-size: 14px;
+                font-weight: 500;
+                transition: color 0.2s;
+            }
+            .nav-links a:hover {
+                color: var(--blue);
+            }
+            .nav-cta {
+                background: linear-gradient(135deg, var(--blue), var(--blue-dark));
+                color: #fff !important;
+                padding: 8px 20px;
+                border-radius: 6px;
+                font-weight: 700 !important;
+                font-size: 13px !important;
+                white-space: nowrap;
+                box-shadow: 0 4px 16px rgba(108, 92, 231, 0.3);
+                transition: opacity 0.2s, transform 0.2s !important;
+            }
+            .nav-cta:hover {
+                opacity: 0.88;
+                transform: translateY(-1px);
+            }
+
+            /* HERO */
+            .hero {
+                min-height: 92vh;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                text-align: center;
+                padding: 80px 24px;
+                position: relative;
+                overflow: hidden;
+                background: linear-gradient(160deg, #ffffff 0%, #ede9ff 60%, #dbd5ff 100%);
+            }
+            .hero::before {
+                content: "";
+                position: absolute;
+                width: 700px;
+                height: 700px;
+                border-radius: 50%;
+                background: radial-gradient(circle, rgba(108, 92, 231, 0.12) 0%, transparent 70%);
+                top: -200px;
+                right: -200px;
+                pointer-events: none;
+            }
+            .hero::after {
+                content: "";
+                position: absolute;
+                width: 500px;
+                height: 500px;
+                border-radius: 50%;
+                background: radial-gradient(circle, rgba(162, 155, 254, 0.15) 0%, transparent 70%);
+                bottom: -150px;
+                left: -150px;
+                pointer-events: none;
+            }
+            .hero-badge {
+                display: inline-flex;
+                align-items: center;
+                gap: 8px;
+                background: rgba(108, 92, 231, 0.1);
+                border: 1px solid rgba(108, 92, 231, 0.3);
+                border-radius: 100px;
+                padding: 6px 18px;
+                font-size: 13px;
+                font-weight: 600;
+                color: var(--blue);
+                margin-bottom: 28px;
+                animation: fadeUp 0.6s ease both;
+            }
+            .hero h1 {
+                font-family: "Montserrat", sans-serif;
+                font-weight: 900;
+                font-size: clamp(36px, 6vw, 72px);
+                line-height: 1.1;
+                max-width: 900px;
+                margin-bottom: 24px;
+                color: var(--text);
+                animation: fadeUp 0.7s 0.1s ease both;
+            }
+            .hero h1 .highlight {
+                background: linear-gradient(135deg, var(--blue), var(--blue-light));
+                -webkit-background-clip: text;
+                -webkit-text-fill-color: transparent;
+                background-clip: text;
+            }
+            .hero p {
+                max-width: 600px;
+                color: var(--muted);
+                font-size: 18px;
+                margin-bottom: 40px;
+                animation: fadeUp 0.7s 0.2s ease both;
+            }
+            .hero-btns {
+                display: flex;
+                gap: 16px;
+                flex-wrap: wrap;
+                justify-content: center;
+                animation: fadeUp 0.7s 0.3s ease both;
+            }
+            .btn-primary {
+                background: linear-gradient(135deg, var(--blue), var(--blue-dark));
+                color: #fff;
+                padding: 16px 36px;
+                border-radius: 8px;
+                font-family: "Montserrat", sans-serif;
+                font-weight: 800;
+                font-size: 16px;
+                text-decoration: none;
+                transition: transform 0.2s, box-shadow 0.2s;
+                box-shadow: 0 8px 30px rgba(108, 92, 231, 0.35);
+            }
+            .btn-primary:hover {
+                transform: translateY(-2px);
+                box-shadow: 0 12px 40px rgba(108, 92, 231, 0.5);
+            }
+            .btn-outline {
+                background: #fff;
+                color: var(--blue);
+                padding: 16px 36px;
+                border-radius: 8px;
+                font-family: "Montserrat", sans-serif;
+                font-weight: 700;
+                font-size: 16px;
+                text-decoration: none;
+                border: 2px solid var(--blue);
+                transition: background 0.2s, color 0.2s;
+            }
+            .btn-outline:hover {
+                background: var(--blue);
+                color: #fff;
+            }
+            .hero-trust {
+                margin-top: 48px;
+                display: flex;
+                gap: 32px;
+                flex-wrap: wrap;
+                justify-content: center;
+                animation: fadeUp 0.7s 0.4s ease both;
+            }
+            .trust-pill {
+                display: flex;
+                align-items: center;
+                gap: 8px;
+                font-size: 14px;
+                color: var(--muted);
+                font-weight: 500;
+            }
+            .trust-pill .dot {
+                width: 8px;
+                height: 8px;
+                border-radius: 50%;
+                background: var(--green);
+            }
+
+            /* COMMON */
+            section {
+                padding: 90px 24px;
+            }
+            .container {
+                max-width: 1100px;
+                margin: 0 auto;
+            }
+            .section-tag {
+                text-align: center;
+                font-size: 12px;
+                font-weight: 700;
+                letter-spacing: 2px;
+                text-transform: uppercase;
+                color: var(--blue);
+                margin-bottom: 14px;
+            }
+            .section-title {
+                font-family: "Montserrat", sans-serif;
+                font-weight: 800;
+                font-size: clamp(28px, 4vw, 44px);
+                text-align: center;
+                margin-bottom: 16px;
+                line-height: 1.2;
+                color: var(--text);
+            }
+            .section-sub {
+                text-align: center;
+                color: var(--muted);
+                font-size: 17px;
+                max-width: 600px;
+                margin: 0 auto 56px;
+            }
+
+            /* TESTIMONIALS */
+            .testimonials-bg {
+                background: var(--bg2);
+            }
+            .testimonials-grid {
+                display: grid;
+                grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+                gap: 20px;
+            }
+            .tcard {
+                background: var(--card);
+                border: 1px solid var(--border);
+                border-radius: 16px;
+                padding: 28px;
+                box-shadow: 0 2px 20px rgba(108, 92, 231, 0.06);
+                transition: box-shadow 0.2s, transform 0.2s;
+            }
+            .tcard:hover {
+                box-shadow: 0 8px 40px rgba(108, 92, 231, 0.14);
+                transform: translateY(-3px);
+            }
+            .tcard-quote {
+                font-size: 15px;
+                color: var(--muted);
+                line-height: 1.7;
+                margin-bottom: 24px;
+            }
+            .tcard-bottom {
+                display: flex;
+                align-items: center;
+                gap: 14px;
+            }
+            .tcard-avatar-placeholder {
+                width: 48px;
+                height: 48px;
+                border-radius: 50%;
+                background: linear-gradient(135deg, var(--blue), var(--blue-light));
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                font-family: "Montserrat", sans-serif;
+                font-weight: 800;
+                font-size: 18px;
+                color: #fff;
+                flex-shrink: 0;
+                border: 2px solid var(--blue-pale);
+            }
+            .tcard-name {
+                font-weight: 700;
+                font-size: 15px;
+                color: var(--text);
+            }
+            .tcard-loc {
+                font-size: 12px;
+                color: var(--muted);
+            }
+            .tcard-earning {
+                margin-left: auto;
+                background: rgba(0, 184, 148, 0.1);
+                border: 1px solid rgba(0, 184, 148, 0.3);
+                color: var(--green);
+                font-weight: 700;
+                font-size: 13px;
+                padding: 4px 12px;
+                border-radius: 100px;
+                white-space: nowrap;
+            }
+
+            /* PROBLEMS */
+            .problems-grid {
+                display: grid;
+                grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+                gap: 24px;
+                margin-bottom: 40px;
+            }
+            .problem-card {
+                background: #fff;
+                border: 1px solid var(--border);
+                border-radius: 16px;
+                padding: 32px;
+                text-align: center;
+                box-shadow: 0 2px 16px rgba(108, 92, 231, 0.06);
+            }
+            .problem-icon {
+                font-size: 42px;
+                margin-bottom: 16px;
+                display: block;
+            }
+            .problem-card h3 {
+                font-family: "Montserrat", sans-serif;
+                font-weight: 700;
+                font-size: 18px;
+                margin-bottom: 12px;
+                color: var(--blue-dark);
+            }
+            .problem-card p {
+                color: var(--muted);
+                font-size: 14px;
+            }
+            .solution-banner {
+                background: linear-gradient(135deg, var(--blue), var(--blue-dark));
+                border-radius: 14px;
+                padding: 28px 32px;
+                text-align: center;
+                font-family: "Montserrat", sans-serif;
+                font-weight: 700;
+                font-size: 20px;
+                color: #fff;
+                box-shadow: 0 8px 30px rgba(108, 92, 231, 0.25);
+            }
+            .solution-banner span {
+                color: var(--gold);
+            }
+
+            /* STATS */
+            .stats-bg {
+                background: var(--bg2);
+            }
+            .stats-grid {
+                display: grid;
+                grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+                gap: 24px;
+                margin-bottom: 64px;
+            }
+            .stat-card {
+                text-align: center;
+                padding: 32px 20px;
+                background: #fff;
+                border: 1px solid var(--border);
+                border-radius: 16px;
+                box-shadow: 0 2px 16px rgba(108, 92, 231, 0.06);
+            }
+            .stat-num {
+                font-family: "Montserrat", sans-serif;
+                font-weight: 900;
+                font-size: 42px;
+                background: linear-gradient(135deg, var(--blue), var(--blue-light));
+                -webkit-background-clip: text;
+                -webkit-text-fill-color: transparent;
+                background-clip: text;
+            }
+            .stat-label {
+                font-size: 14px;
+                color: var(--muted);
+                margin-top: 6px;
+            }
+            .tiers {
+                display: grid;
+                grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+                gap: 20px;
+            }
+            .tier-card {
+                background: #fff;
+                border: 1.5px solid var(--border);
+                border-radius: 18px;
+                padding: 32px 28px;
+                position: relative;
+                box-shadow: 0 2px 16px rgba(108, 92, 231, 0.06);
+                transition: transform 0.2s, box-shadow 0.2s;
+            }
+            .tier-card:hover {
+                transform: translateY(-4px);
+                box-shadow: 0 10px 40px rgba(108, 92, 231, 0.14);
+            }
+            .tier-card.featured {
+                border-color: var(--blue);
+                box-shadow: 0 0 40px rgba(108, 92, 231, 0.18);
+            }
+            .tier-badge {
+                position: absolute;
+                top: -14px;
+                left: 50%;
+                transform: translateX(-50%);
+                background: linear-gradient(135deg, var(--blue), var(--blue-dark));
+                color: #fff;
+                font-size: 11px;
+                font-weight: 700;
+                padding: 5px 16px;
+                border-radius: 100px;
+                white-space: nowrap;
+                font-family: "Montserrat", sans-serif;
+                box-shadow: 0 4px 12px rgba(108, 92, 231, 0.3);
+            }
+            .tier-label {
+                font-size: 13px;
+                color: var(--blue);
+                font-weight: 600;
+                text-transform: uppercase;
+                letter-spacing: 1px;
+                margin-bottom: 8px;
+            }
+            .tier-name {
+                font-family: "Montserrat", sans-serif;
+                font-weight: 800;
+                font-size: 22px;
+                margin-bottom: 6px;
+                color: var(--text);
+            }
+            .tier-earning {
+                font-size: 28px;
+                font-family: "Montserrat", sans-serif;
+                font-weight: 900;
+                color: var(--blue);
+                margin-bottom: 6px;
+            }
+            .tier-hours {
+                font-size: 13px;
+                color: var(--muted);
+                margin-bottom: 20px;
+            }
+            .tier-features {
+                list-style: none;
+                display: flex;
+                flex-direction: column;
+                gap: 10px;
+            }
+            .tier-features li {
+                display: flex;
+                align-items: center;
+                gap: 10px;
+                font-size: 14px;
+                color: var(--muted);
+            }
+            .tier-features li::before {
+                content: "✓";
+                color: var(--blue);
+                font-weight: 700;
+            }
+
+            /* PLATFORMS */
+            .platforms-grid {
+                display: grid;
+                grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+                gap: 24px;
+                margin-bottom: 40px;
+            }
+            .platform-card {
+                background: #fff;
+                border: 1px solid var(--border);
+                border-radius: 16px;
+                padding: 32px;
+                box-shadow: 0 2px 16px rgba(108, 92, 231, 0.06);
+                transition: box-shadow 0.2s, transform 0.2s;
+            }
+            .platform-card:hover {
+                box-shadow: 0 8px 32px rgba(108, 92, 231, 0.14);
+                transform: translateY(-3px);
+            }
+            .platform-icon {
+                font-size: 32px;
+                margin-bottom: 14px;
+            }
+            .platform-card h3 {
+                font-family: "Montserrat", sans-serif;
+                font-weight: 700;
+                font-size: 20px;
+                margin-bottom: 10px;
+                color: var(--text);
+            }
+            .platform-card p {
+                color: var(--muted);
+                font-size: 14px;
+                margin-bottom: 18px;
+            }
+            .platform-features {
+                list-style: none;
+                display: flex;
+                flex-direction: column;
+                gap: 8px;
+            }
+            .platform-features li {
+                font-size: 13px;
+                color: var(--muted);
+                display: flex;
+                align-items: center;
+                gap: 8px;
+            }
+            .platform-features li::before {
+                content: "→";
+                color: var(--blue);
+                font-weight: 700;
+            }
+            .cpm-row {
+                display: grid;
+                grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+                gap: 16px;
+            }
+            .cpm-card {
+                background: linear-gradient(135deg, var(--blue), var(--blue-dark));
+                border-radius: 14px;
+                padding: 24px;
+                text-align: center;
+                box-shadow: 0 6px 24px rgba(108, 92, 231, 0.25);
+            }
+            .cpm-val {
+                font-family: "Montserrat", sans-serif;
+                font-weight: 800;
+                font-size: 30px;
+                color: #fff;
+            }
+            .cpm-label {
+                font-size: 13px;
+                color: rgba(255, 255, 255, 0.7);
+                margin-top: 6px;
+            }
+
+            /* FAQ */
+            .faq-bg {
+                background: var(--bg2);
+            }
+            .faq-list {
+                max-width: 800px;
+                margin: 0 auto;
+                display: flex;
+                flex-direction: column;
+                gap: 14px;
+            }
+            .faq-item {
+                background: #fff;
+                border: 1px solid var(--border);
+                border-radius: 12px;
+                overflow: hidden;
+                box-shadow: 0 2px 12px rgba(108, 92, 231, 0.05);
+            }
+            .faq-item.open {
+                border-color: rgba(108, 92, 231, 0.35);
+            }
+            .faq-q {
+                padding: 20px 24px;
+                font-weight: 600;
+                font-size: 15px;
+                cursor: pointer;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                user-select: none;
+                color: var(--text);
+            }
+            .faq-q .arrow {
+                font-size: 20px;
+                color: var(--blue);
+                transition: transform 0.3s;
+                font-weight: 700;
+            }
+            .faq-a {
+                padding: 0 24px;
+                max-height: 0;
+                overflow: hidden;
+                color: var(--muted);
+                font-size: 15px;
+                line-height: 1.7;
+                transition: max-height 0.35s ease, padding 0.35s;
+            }
+            .faq-item.open .faq-a {
+                max-height: 200px;
+                padding: 0 24px 20px;
+            }
+            .faq-item.open .arrow {
+                transform: rotate(45deg);
+            }
+            .guarantee-box {
+                max-width: 600px;
+                margin: 48px auto 0;
+                background: #fff;
+                border: 2px solid rgba(0, 184, 148, 0.3);
+                border-radius: 18px;
+                padding: 36px;
+                text-align: center;
+                box-shadow: 0 4px 30px rgba(0, 184, 148, 0.1);
+            }
+            .guarantee-icon {
+                font-size: 52px;
+                margin-bottom: 14px;
+            }
+            .guarantee-box h3 {
+                font-family: "Montserrat", sans-serif;
+                font-weight: 800;
+                font-size: 22px;
+                margin-bottom: 10px;
+                color: var(--green);
+            }
+            .guarantee-box p {
+                color: var(--muted);
+                font-size: 15px;
+                margin-bottom: 24px;
+            }
+
+            /* BONUSES */
+            .bonuses-grid {
+                display: grid;
+                grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+                gap: 20px;
+                margin-bottom: 40px;
+            }
+            .bonus-card {
+                background: #fff;
+                border: 1px solid var(--border);
+                border-radius: 16px;
+                padding: 28px;
+                position: relative;
+                overflow: hidden;
+                box-shadow: 0 2px 16px rgba(108, 92, 231, 0.06);
+                transition: box-shadow 0.2s, transform 0.2s;
+            }
+            .bonus-card::before {
+                content: "";
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 4px;
+                height: 100%;
+                background: linear-gradient(180deg, var(--blue), var(--blue-light));
+            }
+            .bonus-card:hover {
+                box-shadow: 0 8px 32px rgba(108, 92, 231, 0.14);
+                transform: translateY(-3px);
+            }
+            .bonus-value {
+                background: rgba(108, 92, 231, 0.08);
+                border: 1px solid rgba(108, 92, 231, 0.2);
+                color: var(--blue);
+                font-weight: 700;
+                font-size: 12px;
+                padding: 4px 12px;
+                border-radius: 100px;
+                display: inline-block;
+                margin-bottom: 14px;
+            }
+            .bonus-card h3 {
+                font-family: "Montserrat", sans-serif;
+                font-weight: 700;
+                font-size: 16px;
+                margin-bottom: 10px;
+                color: var(--text);
+            }
+            .bonus-card p {
+                color: var(--muted);
+                font-size: 14px;
+                line-height: 1.6;
+            }
+            .bonus-total {
+                text-align: center;
+                font-family: "Montserrat", sans-serif;
+                font-weight: 800;
+                font-size: 20px;
+                color: var(--text);
+            }
+            .bonus-total .strike {
+                text-decoration: line-through;
+                color: var(--muted);
+                font-size: 16px;
+                margin-right: 10px;
+            }
+            .bonus-total .free {
+                color: var(--green);
+                font-size: 30px;
+            }
+
+            /* PRICING */
+            .pricing-bg {
+                background: linear-gradient(160deg, var(--blue-pale) 0%, #e0daff 100%);
+                position: relative;
+                overflow: hidden;
+            }
+            .pricing-bg::before {
+                content: "";
+                position: absolute;
+                width: 600px;
+                height: 600px;
+                border-radius: 50%;
+                background: radial-gradient(circle, rgba(108, 92, 231, 0.12) 0%, transparent 70%);
+                top: -200px;
+                right: -200px;
+                pointer-events: none;
+            }
+            .price-box {
+                max-width: 720px;
+                margin: 0 auto;
+                background: #fff;
+                border: 2px solid rgba(108, 92, 231, 0.25);
+                border-radius: 24px;
+                overflow: hidden;
+                box-shadow: 0 20px 80px rgba(108, 92, 231, 0.2);
+            }
+            .price-box-header {
+                background: linear-gradient(135deg, var(--blue), var(--blue-dark));
+                padding: 36px;
+                text-align: center;
+            }
+            .price-urgency {
+                font-size: 13px;
+                color: rgba(255, 255, 255, 0.8);
+                font-weight: 600;
+                margin-bottom: 12px;
+                text-transform: uppercase;
+                letter-spacing: 1px;
+            }
+            .price-old {
+                font-size: 22px;
+                color: rgba(255, 255, 255, 0.5);
+                text-decoration: line-through;
+            }
+            .price-new {
+                font-family: "Montserrat", sans-serif;
+                font-weight: 900;
+                font-size: 64px;
+                color: #fff;
+                line-height: 1;
+            }
+            .price-save {
+                display: inline-block;
+                margin-top: 10px;
+                background: rgba(255, 255, 255, 0.2);
+                border-radius: 100px;
+                padding: 5px 16px;
+                font-size: 14px;
+                color: #fff;
+                font-weight: 600;
+            }
+            .price-timer-row {
+                display: flex;
+                justify-content: center;
+                gap: 12px;
+                margin: 24px 0 0;
+            }
+            .price-timer-block {
+                background: rgba(0, 0, 0, 0.18);
+                border-radius: 10px;
+                padding: 10px 16px;
+                text-align: center;
+                min-width: 64px;
+            }
+            .price-timer-num {
+                font-family: "Montserrat", sans-serif;
+                font-weight: 900;
+                font-size: 30px;
+                color: #fff;
+            }
+            .price-timer-label {
+                font-size: 11px;
+                color: rgba(255, 255, 255, 0.65);
+                text-transform: uppercase;
+                letter-spacing: 1px;
+            }
+            .price-body {
+                padding: 36px;
+            }
+            .modules-grid {
+                display: grid;
+                grid-template-columns: 1fr 1fr;
+                gap: 10px;
+                margin-bottom: 28px;
+            }
+            .module-item {
+                display: flex;
+                align-items: flex-start;
+                gap: 10px;
+                font-size: 14px;
+                padding: 12px;
+                background: var(--bg2);
+                border-radius: 10px;
+                border: 1px solid var(--border);
+            }
+            .module-num {
+                background: linear-gradient(135deg, var(--blue), var(--blue-dark));
+                color: #fff;
+                font-size: 11px;
+                font-weight: 700;
+                width: 26px;
+                height: 26px;
+                border-radius: 7px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                flex-shrink: 0;
+            }
+            .module-text {
+                color: var(--muted);
+                font-size: 12px;
+            }
+            .module-title {
+                font-weight: 600;
+                font-size: 13px;
+                color: var(--text);
+            }
+            .perks-row {
+                display: flex;
+                gap: 12px;
+                justify-content: center;
+                flex-wrap: wrap;
+                margin-bottom: 28px;
+            }
+            .perk-pill {
+                display: flex;
+                align-items: center;
+                gap: 6px;
+                background: var(--blue-pale);
+                border: 1px solid rgba(108, 92, 231, 0.2);
+                border-radius: 100px;
+                padding: 7px 16px;
+                font-size: 13px;
+                color: var(--blue-dark);
+                font-weight: 600;
+            }
+            .enroll-btn {
+                display: block;
+                width: 100%;
+                background: linear-gradient(135deg, var(--blue), var(--blue-dark));
+                color: #fff;
+                text-align: center;
+                padding: 18px;
+                border-radius: 12px;
+                font-family: "Montserrat", sans-serif;
+                font-weight: 800;
+                font-size: 18px;
+                text-decoration: none;
+                transition: transform 0.2s, box-shadow 0.2s;
+                box-shadow: 0 8px 30px rgba(108, 92, 231, 0.4);
+                margin-bottom: 14px;
+            }
+            .enroll-btn:hover {
+                transform: translateY(-2px);
+                box-shadow: 0 14px 40px rgba(108, 92, 231, 0.55);
+            }
+            .enroll-sub {
+                text-align: center;
+                font-size: 13px;
+                color: var(--muted);
+            }
+
+            /* FOOTER */
+            footer {
+                background: var(--text);
+                padding: 60px 24px 32px;
+            }
+            .footer-grid {
+                display: grid;
+                grid-template-columns: 2fr 1fr 1fr 1fr;
+                gap: 40px;
+                max-width: 1100px;
+                margin: 0 auto 48px;
+            }
+            .footer-brand p {
+                color: rgba(255, 255, 255, 0.5);
+                font-size: 14px;
+                margin-top: 14px;
+                line-height: 1.7;
+                max-width: 280px;
+            }
+            .footer-logo {
+                font-family: "Montserrat", sans-serif;
+                font-weight: 900;
+                font-size: 20px;
+                color: #fff;
+            }
+            .footer-logo span {
+                color: var(--blue-light);
+            }
+            .footer-col h4 {
+                font-family: "Montserrat", sans-serif;
+                font-weight: 700;
+                font-size: 14px;
+                margin-bottom: 18px;
+                color: #fff;
+            }
+            .footer-col ul {
+                list-style: none;
+                display: flex;
+                flex-direction: column;
+                gap: 10px;
+            }
+            .footer-col a {
+                color: rgba(255, 255, 255, 0.5);
+                text-decoration: none;
+                font-size: 14px;
+                transition: color 0.2s;
+            }
+            .footer-col a:hover {
+                color: var(--blue-light);
+            }
+            .footer-bottom {
+                max-width: 1100px;
+                margin: 0 auto;
+                border-top: 1px solid rgba(255, 255, 255, 0.1);
+                padding-top: 24px;
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                flex-wrap: wrap;
+                gap: 12px;
+            }
+            .footer-bottom p {
+                font-size: 13px;
+                color: rgba(255, 255, 255, 0.4);
+            }
+            .stripe-badge {
+                display: flex;
+                align-items: center;
+                gap: 8px;
+                font-size: 13px;
+                color: rgba(255, 255, 255, 0.4);
+            }
+
+            /* ANIMATIONS */
+            @keyframes fadeUp {
+                from {
+                    opacity: 0;
+                    transform: translateY(24px);
+                }
+                to {
+                    opacity: 1;
+                    transform: translateY(0);
+                }
+            }
+            .reveal {
+                opacity: 0;
+                transform: translateY(28px);
+                transition: opacity 0.65s ease, transform 0.65s ease;
+            }
+            .reveal.visible {
+                opacity: 1;
+                transform: translateY(0);
+            }
+
+            /* RESPONSIVE */
+            @media (max-width: 768px) {
+                nav {
+                    padding: 0 20px;
+                }
+                .nav-links {
+                    display: none;
+                }
+                .modules-grid {
+                    grid-template-columns: 1fr;
+                }
+                .price-new {
+                    font-size: 48px;
+                }
+                .footer-grid {
+                    grid-template-columns: 1fr 1fr;
+                }
+            }
+            @media (max-width: 500px) {
+                .footer-grid {
+                    grid-template-columns: 1fr;
+                }
+            }
+            .sr-section *,
+            .sr-section *::before,
+            .sr-section *::after {
+                box-sizing: border-box;
+                margin: 0;
+                padding: 0;
+            }
+
+            .sr-section {
+                font-family: "DM Sans", sans-serif;
+                background: #f4f6fb;
+                width: 100%;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                padding: 60px 20px;
+            }
+
+            .sr-inner {
+                max-width: 1140px;
+                width: 100%;
+                margin: 0 auto;
+            }
+
+            .sr-title {
+                font-family: "Sora", sans-serif;
+                font-size: clamp(1.6rem, 3vw, 2.2rem);
+                font-weight: 800;
+                color: #0f1117;
+                text-align: center;
+                margin-bottom: 48px;
+                letter-spacing: -0.5px;
+                line-height: 1.25;
+            }
+
+            .sr-grid {
+                display: grid;
+                grid-template-columns: repeat(3, 1fr);
+                gap: 24px;
+            }
+
+            @media (max-width: 900px) {
+                .sr-grid {
+                    grid-template-columns: repeat(2, 1fr);
+                }
+            }
+            @media (max-width: 580px) {
+                .sr-grid {
+                    grid-template-columns: 1fr;
+                }
+            }
+
+            .sr-card {
+                background: #fff;
+                border-radius: 16px;
+                box-shadow: 0 4px 24px rgba(0, 0, 0, 0.07), 0 1px 4px rgba(0, 0, 0, 0.04);
+                overflow: hidden;
+                transition: transform 0.22s ease, box-shadow 0.22s ease;
+                position: relative;
+            }
+
+            .sr-card:hover {
+                transform: translateY(-4px);
+                box-shadow: 0 12px 36px rgba(0, 0, 0, 0.12), 0 2px 8px rgba(0, 0, 0, 0.06);
+            }
+
+            .sr-card-img-wrap {
+                position: relative;
+                width: 100%;
+                aspect-ratio: 16 / 10;
+                background: #e8ecf5;
+                overflow: hidden;
+            }
+
+            .sr-card-img-wrap img {
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+                display: block;
+            }
+
+            .sr-placeholder {
+                position: absolute;
+                inset: 0;
+                background: linear-gradient(110deg, #e8ecf5 30%, #f0f3fa 50%, #e8ecf5 70%);
+                background-size: 200% 100%;
+                animation: sr-shimmer 1.6s infinite linear;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                color: #a0abbe;
+                font-size: 13px;
+                font-family: "Sora", sans-serif;
+                letter-spacing: 0.3px;
+            }
+
+            @keyframes sr-shimmer {
+                0% {
+                    background-position: 200% 0;
+                }
+                100% {
+                    background-position: -200% 0;
+                }
+            }
+        </style>
+    </head>
+    <body>
+        <!-- Flash Bar -->
+        <div class="flash-bar">
+            🔥 FLASH SALE — 70% OFF:
+            <div class="timer"><span id="h">23</span>:<span id="m">05</span>:<span id="s">23</span></div>
+            ₹6,999 → <strong style="color: #ffd60a">₹599</strong>
+            <a href="https://superprofile.bio/vp/ai-mastery-class-2026" style="background: #ffd60a; color: #1a1630; font-weight: 800; padding: 5px 14px; border-radius: 6px; text-decoration: none; font-size: 13px">Enroll Now</a>
+        </div>
+
+        <!-- Navbar -->
+        <nav>
+            <a href="#" class="nav-logo">AI <span>Mastery</span> 2026</a>
+            <ul class="nav-links">
+                <li><a href="#testimonials">Success Stories</a></li>
+                <li><a href="#curriculum">Course Curriculum</a></li>
+                <li><a href="#pricing">Pricing</a></li>
+                <li><a href="#faq">FAQ</a></li>
+                <li><a href="#pricing" class="nav-cta">Start Earning ₹5L+/Month</a></li>
+            </ul>
+        </nav>
+
+        <!-- Hero -->
+        <section class="hero">
+            <div class="hero-badge">🚀 Join 10,000+ Students Already Earning</div>
+            <h1>Make <span class="highlight">5L+ a Month</span> Creating Faceless Viral Videos with AI</h1>
+            <p>Stop showing your face, stop recording, and start earning. Our AI‑powered system helps you create viral videos for YouTube, Instagram, and Facebook — completely hands‑free.</p>
+            <div class="hero-btns">
+                <a href="#pricing" class="btn-primary">Start My Journey Today</a>
+                <a href="#curriculum" class="btn-outline">View Course Curriculum</a>
+            </div>
+            <div class="hero-trust">
+                <div class="trust-pill"><span class="dot"></span> No experience needed</div>
+                <div class="trust-pill"><span class="dot"></span> 30‑day money‑back guarantee</div>
+                <div class="trust-pill"><span class="dot"></span> Lifetime access</div>
+            </div>
+        </section>
+
+        <!-- Testimonials -->
+        <section class="testimonials-bg" id="testimonials">
+            <div class="container">
+                <p class="section-tag">Student Success Stories</p>
+                <h2 class="section-title">Real Students, Real Results</h2>
+                <p class="section-sub">See what our Indian students are achieving with AI Mastery 2026</p>
+                <div class="testimonials-grid reveal">
+                    <div class="tcard">
+                        <p class="tcard-quote">"I was completely new to video creation. The AI tools made it so easy! In just 45 days, I hit my first $1,000 month. Now I'm making $4,200/month consistently."</p>
+                        <div class="tcard-bottom">
+                            <div class="tcard-avatar-placeholder">P</div>
+                            <div>
+                                <div class="tcard-name">Priya Sharma</div>
+                                <div class="tcard-loc">Mumbai, Maharashtra</div>
+                            </div>
+                            <div class="tcard-earning">$4,200/mo</div>
+                        </div>
+                    </div>
+                    <div class="tcard">
+                        <p class="tcard-quote">"Working a 9‑5 job in Bangalore, I barely had 2 hours daily. Used the AI system on weekends. Within 3 months, I earned $3,800 from YouTube ads!"</p>
+                        <div class="tcard-bottom">
+                            <div class="tcard-avatar-placeholder">R</div>
+                            <div>
+                                <div class="tcard-name">Raj Patel</div>
+                                <div class="tcard-loc">Bangalore, Karnataka</div>
+                            </div>
+                            <div class="tcard-earning">$3,800/mo</div>
+                        </div>
+                    </div>
+                    <div class="tcard">
+                        <p class="tcard-quote">"From Delhi, with zero tech experience. The niche finder tool helped me target the spiritual niche — 500K+ views in first month. Now at $5,500/month!"</p>
+                        <div class="tcard-bottom">
+                            <div class="tcard-avatar-placeholder">A</div>
+                            <div>
+                                <div class="tcard-name">Anjali Gupta</div>
+                                <div class="tcard-loc">New Delhi</div>
+                            </div>
+                            <div class="tcard-earning">$5,500/mo</div>
+                        </div>
+                    </div>
+                    <div class="tcard">
+                        <p class="tcard-quote">"As a housewife from Chennai, I wanted to contribute to family income. This course changed everything! I make $2,800/month working just 2 hours daily."</p>
+                        <div class="tcard-bottom">
+                            <div class="tcard-avatar-placeholder">L</div>
+                            <div>
+                                <div class="tcard-name">Lakshmi Narayanan</div>
+                                <div class="tcard-loc">Chennai, Tamil Nadu</div>
+                            </div>
+                            <div class="tcard-earning">$2,800/mo</div>
+                        </div>
+                    </div>
+                    <div class="tcard">
+                        <p class="tcard-quote">"Engineering dropout turned full‑time creator! The Instagram Reels strategy alone got me 100K followers in 60 days. Now earning $6,200/month from brand deals!"</p>
+                        <div class="tcard-bottom">
+                            <div class="tcard-avatar-placeholder">V</div>
+                            <div>
+                                <div class="tcard-name">Vikram Singh</div>
+                                <div class="tcard-loc">Jaipur, Rajasthan</div>
+                            </div>
+                            <div class="tcard-earning">$6,200/mo</div>
+                        </div>
+                    </div>
+                    <div class="tcard">
+                        <p class="tcard-quote">"Single mom from Hyderabad. Started with just a basic laptop. The AI does 95% of the work! Now making $3,100/month and can afford my son's education."</p>
+                        <div class="tcard-bottom">
+                            <div class="tcard-avatar-placeholder">S</div>
+                            <div>
+                                <div class="tcard-name">Sunita Reddy</div>
+                                <div class="tcard-loc">Hyderabad, Telangana</div>
+                            </div>
+                            <div class="tcard-earning">$3,100/mo</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="sr-section">
+            <div class="sr-inner">
+                <h2 class="sr-title">Need more proof? Here are the live results from our students....</h2>
+
+                <div class="sr-grid">
+                    <!-- Card 1 -->
+                    <div class="sr-card">
+                        <div class="sr-card-img-wrap">
+                            <img src="./1.avif" alt="Student result 1" onerror="this.style.display='none'" />
+                        </div>
+                    </div>
+
+                    <!-- Card 2 -->
+                    <div class="sr-card">
+                        <div class="sr-card-img-wrap">
+                            <img src="./2.avif" alt="Student result 2" onerror="this.style.display='none'" />
+                        </div>
+                    </div>
+
+                    <!-- Card 3 -->
+                    <div class="sr-card">
+                        <div class="sr-card-img-wrap">
+                            <img src="./3.avif" alt="Student result 3" onerror="this.style.display='none'" />
+                        </div>
+                    </div>
+
+                    <!-- Card 4 -->
+                    <div class="sr-card">
+                        <div class="sr-card-img-wrap">
+                            <img src="./4.avif" alt="Student result 4" onerror="this.style.display='none'" />
+                        </div>
+                    </div>
+
+                    <!-- Card 5 -->
+                    <div class="sr-card">
+                        <div class="sr-card-img-wrap">
+                            <img src="./5.avif" alt="Student result 5" onerror="this.style.display='none'" />
+                        </div>
+                    </div>
+
+                    <!-- Card 6 -->
+                    <div class="sr-card">
+                        <div class="sr-card-img-wrap">
+                            <img src="./6.avif" alt="Student result 6" onerror="this.style.display='none'" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Problems -->
+        <section>
+            <div class="container">
+                <p class="section-tag">The Problem</p>
+                <h2 class="section-title">The Old Way of Creating Content Doesn't Work Anymore</h2>
+                <p class="section-sub">Here's why most people fail at content creation — and how we fixed it.</p>
+                <div class="problems-grid reveal">
+                    <div class="problem-card">
+                        <span class="problem-icon">😰</span>
+                        <h3>Camera Fear</h3>
+                        <p>87% of people never start because they're afraid of being on camera. The thought of recording themselves causes anxiety and paralysis.</p>
+                    </div>
+                    <div class="problem-card">
+                        <span class="problem-icon">⏰</span>
+                        <h3>Time Consuming</h3>
+                        <p>Traditional video creation takes 10+ hours per video. Scripting, filming, editing, thumbnails — it's overwhelming and unsustainable.</p>
+                    </div>
+                    <div class="problem-card">
+                        <span class="problem-icon">📉</span>
+                        <h3>No Results</h3>
+                        <p>Even after putting in all that work, most creators get no views, no subscribers, and no income. The algorithm feels impossible to crack.</p>
+                    </div>
+                </div>
+                <div class="solution-banner reveal"><span>AI Mastery 2026</span> solves all three problems — completely hands‑free.</div>
+            </div>
+        </section>
+
+        <!-- Stats -->
+        <section class="stats-bg" id="curriculum">
+            <div class="container">
+                <p class="section-tag">Your Earning Potential</p>
+                <h2 class="section-title">Here's What Our Students Are Achieving</h2>
+                <p class="section-sub">Real numbers from the AI Mastery 2026 community</p>
+                <div class="stats-grid reveal">
+                    <div class="stat-card">
+                        <div class="stat-num">5L+</div>
+                        <div class="stat-label">Average Monthly Earnings</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-num">50M+</div>
+                        <div class="stat-label">Total Views Generated</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-num">10K+</div>
+                        <div class="stat-label">Active Students</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-num">500+</div>
+                        <div class="stat-label">New Students / Month</div>
+                    </div>
+                </div>
+                <h3 style="font-family: 'Montserrat', sans-serif; font-weight: 700; font-size: 22px; text-align: center; margin-bottom: 32px; color: var(--text)">What You Can Earn Based on Effort</h3>
+                <div class="tiers reveal">
+                    <div class="tier-card">
+                        <div class="tier-label">Starter</div>
+                        <div class="tier-name">Beginner</div>
+                        <div class="tier-earning">₹50,000<span style="font-size: 16px; color: var(--muted)">/mo</span></div>
+                        <div class="tier-hours">1–2 hours/week</div>
+                        <ul class="tier-features">
+                            <li>5–10 videos/week</li>
+                            <li>1 platform</li>
+                            <li>Ad revenue</li>
+                        </ul>
+                    </div>
+                    <div class="tier-card featured">
+                        <div class="tier-badge">⭐ Most Popular</div>
+                        <div class="tier-label">Pro Creator</div>
+                        <div class="tier-name">Intermediate</div>
+                        <div class="tier-earning">₹2,00,000<span style="font-size: 16px; color: var(--muted)">/mo</span></div>
+                        <div class="tier-hours">3–4 hours/week</div>
+                        <ul class="tier-features">
+                            <li>15–20 videos/week</li>
+                            <li>3 platforms</li>
+                            <li>Multi‑income streams</li>
+                        </ul>
+                    </div>
+                    <div class="tier-card">
+                        <div class="tier-label">Master</div>
+                        <div class="tier-name">Full‑Time</div>
+                        <div class="tier-earning">₹5,00,000+<span style="font-size: 16px; color: var(--muted)">/mo</span></div>
+                        <div class="tier-hours">Full‑time effort</div>
+                        <ul class="tier-features">
+                            <li>30+ videos/week</li>
+                            <li>All platforms</li>
+                            <li>Agency potential</li>
+                        </ul>
+                    </div>
+                </div>
+                <div style="text-align: center; margin-top: 40px"><a href="#pricing" class="btn-primary" style="display: inline-block">I Want to Start Earning</a></div>
+            </div>
+        </section>
+
+        <!-- Platforms -->
+        <section>
+            <div class="container">
+                <p class="section-tag">Multi‑Platform Strategy</p>
+                <h2 class="section-title">Master All Major Video Platforms</h2>
+                <p class="section-sub">One video, maximum reach. We teach you how to optimize for each platform.</p>
+                <div class="platforms-grid reveal">
+                    <div class="platform-card">
+                        <div class="platform-icon">▶️</div>
+                        <h3>YouTube</h3>
+                        <p>Long‑form content, Shorts, and automated uploading. Learn the exact algorithm strategies to get recommended.</p>
+                        <ul class="platform-features">
+                            <li>AdSense monetization</li>
+                            <li>YouTube Shorts strategy</li>
+                            <li>Sponsorships &amp; brand deals</li>
+                        </ul>
+                    </div>
+                    <div class="platform-card">
+                        <div class="platform-icon">📸</div>
+                        <h3>Instagram</h3>
+                        <p>Reels, feed posts, and Stories. Build your brand and monetize through multiple Instagram features.</p>
+                        <ul class="platform-features">
+                            <li>Reels viral formula</li>
+                            <li>Creator fund payouts</li>
+                            <li>Affiliate commissions</li>
+                        </ul>
+                    </div>
+                    <div class="platform-card">
+                        <div class="platform-icon">👥</div>
+                        <h3>Facebook</h3>
+                        <p>In‑Stream Ads, Reels, and Watch. Leverage Facebook's massive user base and high CPM rates.</p>
+                        <ul class="platform-features">
+                            <li>In‑Stream Ad breaks</li>
+                            <li>Facebook Reels Play bonus</li>
+                            <li>Audience network earnings</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="cpm-row reveal">
+                    <div class="cpm-card">
+                        <div class="cpm-val">$18.50</div>
+                        <div class="cpm-label">YouTube CPM Average</div>
+                    </div>
+                    <div class="cpm-card">
+                        <div class="cpm-val">$12.00</div>
+                        <div class="cpm-label">Instagram CPM Average</div>
+                    </div>
+                    <div class="cpm-card">
+                        <div class="cpm-val">$15.00</div>
+                        <div class="cpm-label">Facebook CPM Average</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- FAQ -->
+        <section class="faq-bg" id="faq">
+            <div class="container">
+                <p class="section-tag">FAQ</p>
+                <h2 class="section-title">Still Have Questions?</h2>
+                <p class="section-sub">We address the most common concerns so you can move forward with confidence.</p>
+                <div class="faq-list reveal">
+                    <div class="faq-item open">
+                        <div class="faq-q" onclick="toggleFaq(this)">"I have no experience with videos" <span class="arrow">+</span></div>
+                        <div class="faq-a">Perfect for beginners! We start from zero. Our step‑by‑step system teaches you everything, and the AI handles 95% of the technical work.</div>
+                    </div>
+                    <div class="faq-item">
+                        <div class="faq-q" onclick="toggleFaq(this)">"What if the market is saturated?" <span class="arrow">+</span></div>
+                        <div class="faq-a">There's still massive opportunity! The key is niche selection and unique positioning. We teach you our proven framework for finding untapped markets.</div>
+                    </div>
+                    <div class="faq-item">
+                        <div class="faq-q" onclick="toggleFaq(this)">"How long until I see results?" <span class="arrow">+</span></div>
+                        <div class="faq-a">Most students see their first views within days and first income within 30–60 days. Results vary based on effort and niche selection.</div>
+                    </div>
+                    <div class="faq-item">
+                        <div class="faq-q" onclick="toggleFaq(this)">"I don't have the right equipment" <span class="arrow">+</span></div>
+                        <div class="faq-a">You only need a mobile phone / laptop and internet! All AI tools are cloud‑based. No expensive cameras, mics, or editing software required.</div>
+                    </div>
+                </div>
+                <div class="guarantee-box reveal">
+                    <div class="guarantee-icon">🛡️</div>
+                    <h3>30‑Day Money‑Back Guarantee</h3>
+                    <p>Try the course risk‑free. If you're not satisfied within 30 days, get a full refund. No questions asked, no hard feelings.</p>
+                    <a href="#pricing" class="btn-primary" style="display: inline-block; padding: 14px 32px; font-size: 15px">Get Started Today</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Bonuses -->
+        <section>
+            <div class="container">
+                <p class="section-tag">FREE Bonuses Valued at ₹19,994</p>
+                <h2 class="section-title">Get 6 Incredible Free Bonuses</h2>
+                <p class="section-sub">Enroll today and receive these powerful extras at no additional cost — yours to keep forever.</p>
+                <div class="bonuses-grid reveal">
+                    <div class="bonus-card">
+                        <div class="bonus-value">₹999 Value</div>
+                        <h3>100 Profitable Niches List</h3>
+                        <p>Exclusive list of 100 Profitable Faceless YouTube Niches to get you started instantly.</p>
+                    </div>
+                    <div class="bonus-card">
+                        <div class="bonus-value">₹2,999 Value</div>
+                        <h3>Adsense Approval &amp; Loading Method</h3>
+                        <p>Get your channel approved for AdSense within 24 hours and learn a secret revenue method without sending traffic.</p>
+                    </div>
+                    <div class="bonus-card">
+                        <div class="bonus-value">₹1,999 Value</div>
+                        <h3>Facebook Viral Video Course</h3>
+                        <p>Strategies to create viral videos on Facebook that generate millions of views and grow pages faster.</p>
+                    </div>
+                    <div class="bonus-card">
+                        <div class="bonus-value">₹2,999 Value</div>
+                        <h3>18,000+ YouTube Template Kit</h3>
+                        <p>A massive collection of 18,000+ ready‑to‑use templates for videos, thumbnails, intros, and graphics.</p>
+                    </div>
+                    <div class="bonus-card">
+                        <div class="bonus-value">₹3,999 Value</div>
+                        <h3>A‑Z Digital Marketing Course</h3>
+                        <p>Complete training covering SEO, social media growth, traffic generation, and online sales strategies.</p>
+                    </div>
+                    <div class="bonus-card">
+                        <div class="bonus-value">₹6,999 Value</div>
+                        <h3>Reels Bundle</h3>
+                        <p>Includes Reels Mastery Course, 10,000+ Canva Templates, 3,000+ Viral Infographics, 50,000+ Graphic Bundles &amp; more.</p>
+                    </div>
+                </div>
+                <div class="bonus-total reveal"><span class="strike">₹19,994</span> → <span class="free">FREE</span></div>
+                <div style="text-align: center; margin-top: 28px"><a href="#pricing" class="btn-primary" style="display: inline-block">Claim All Bonuses Now</a></div>
+            </div>
+        </section>
+
+        <!-- Pricing -->
+        <section class="pricing-bg" id="pricing" style="padding: 90px 24px">
+            <div class="container">
+                <p class="section-tag">Limited Time Offer — 70% OFF</p>
+                <h2 class="section-title">Get Complete AI Mastery 2026 Course</h2>
+                <p class="section-sub">Everything you need to start earning ₹5,00,000/month with faceless AI videos</p>
+                <p style="text-align: center; color: var(--blue-dark); font-weight: 700; margin-bottom: 32px">🔥 Launch Offer: Rs.599 Only Today &nbsp;|&nbsp; ⏳ Price increases to Rs.3999 tomorrow</p>
+                <div class="price-box reveal">
+                    <div class="price-box-header">
+                        <div class="price-urgency">⏳ Offer Ends In</div>
+                        <div class="price-timer-row">
+                            <div class="price-timer-block">
+                                <div class="price-timer-num" id="ph">23</div>
+                                <div class="price-timer-label">Hours</div>
+                            </div>
+                            <div style="font-size: 34px; font-weight: 900; color: #fff; display: flex; align-items: center">:</div>
+                            <div class="price-timer-block">
+                                <div class="price-timer-num" id="pm">05</div>
+                                <div class="price-timer-label">Minutes</div>
+                            </div>
+                            <div style="font-size: 34px; font-weight: 900; color: #fff; display: flex; align-items: center">:</div>
+                            <div class="price-timer-block">
+                                <div class="price-timer-num" id="ps">23</div>
+                                <div class="price-timer-label">Seconds</div>
+                            </div>
+                        </div>
+                        <div style="margin-top: 22px">
+                            <div class="price-old">₹6,999</div>
+                            <div class="price-new">₹599</div>
+                            <div class="price-save">🎉 You save ₹6,400 today!</div>
+                        </div>
+                    </div>
+                    <div class="price-body">
+                        <h3 style="font-family: 'Montserrat', sans-serif; font-weight: 700; font-size: 18px; margin-bottom: 20px; text-align: center; color: var(--text)">What's Included in the Course:</h3>
+                        <div class="modules-grid">
+                            <div class="module-item">
+                                <div class="module-num">1</div>
+                                <div>
+                                    <div class="module-title">AI Video Fundamentals</div>
+                                    <div class="module-text">Understanding AI tools &amp; setup</div>
+                                </div>
+                            </div>
+                            <div class="module-item">
+                                <div class="module-num">2</div>
+                                <div>
+                                    <div class="module-title">Script Generation</div>
+                                    <div class="module-text">AI‑powered script writing</div>
+                                </div>
+                            </div>
+                            <div class="module-item">
+                                <div class="module-num">3</div>
+                                <div>
+                                    <div class="module-title">Voiceover Mastery</div>
+                                    <div class="module-text">40+ AI voices &amp; narration</div>
+                                </div>
+                            </div>
+                            <div class="module-item">
+                                <div class="module-num">4</div>
+                                <div>
+                                    <div class="module-title">Video Creation</div>
+                                    <div class="module-text">Auto‑generating visuals</div>
+                                </div>
+                            </div>
+                            <div class="module-item">
+                                <div class="module-num">5</div>
+                                <div>
+                                    <div class="module-title">YouTube Growth</div>
+                                    <div class="module-text">Algorithm &amp; monetization</div>
+                                </div>
+                            </div>
+                            <div class="module-item">
+                                <div class="module-num">6</div>
+                                <div>
+                                    <div class="module-title">Instagram &amp; Facebook</div>
+                                    <div class="module-text">Reels &amp; multi‑platform</div>
+                                </div>
+                            </div>
+                            <div class="module-item">
+                                <div class="module-num">7</div>
+                                <div>
+                                    <div class="module-title">Niche Selection</div>
+                                    <div class="module-text">Finding profitable niches</div>
+                                </div>
+                            </div>
+                            <div class="module-item">
+                                <div class="module-num">8</div>
+                                <div>
+                                    <div class="module-title">Scaling to 5L+</div>
+                                    <div class="module-text">Advanced strategies</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="perks-row">
+                            <div class="perk-pill">📺 50+ Video Lessons</div>
+                            <div class="perk-pill">♾️ Lifetime Access</div>
+                            <div class="perk-pill">📱 Mobile Access</div>
+                            <div class="perk-pill">🏆 Certificate</div>
+                        </div>
+                        <a href="https://superprofile.bio/vp/ai-mastery-class-2026" class="enroll-btn">Enroll Now for ₹599 Only →</a>
+                        <div class="enroll-sub">🛡️ 30‑Day Money‑Back Guarantee &nbsp;•&nbsp; No Questions Asked</div>
+                        <p style="text-align: center; margin-top: 10px; font-size: 13px; color: var(--muted)">Join 500+ students who enrolled today</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer>
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <div class="footer-logo">AI <span>Mastery</span> 2026</div>
+                    <p>Master the art of AI‑powered video creation and build a sustainable income stream without showing your face.</p>
+                </div>
+                <div class="footer-col">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#testimonials">Success Stories</a></li>
+                        <li><a href="#curriculum">Course Curriculum</a></li>
+                        <li><a href="#pricing">Pricing</a></li>
+                        <li><a href="#faq">FAQ</a></li>
+                        <li><a href="#pricing">About Us</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Resources</h4>
+                    <ul>
+                        <li><a href="#pricing">Free Training</a></li>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">Help Center</a></li>
+                        <li><a href="#pricing">Contact Us</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Legal</h4>
+                    <ul>
+                        <li><a href="#">Terms of Service</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Cookie Policy</a></li>
+                        <li><a href="#">Refund Policy</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>© 2026 AI Mastery 2026. All rights reserved.</p>
+                <div class="stripe-badge">🔒 Secure checkout powered by Stripe</div>
+            </div>
+        </footer>
+
+        <script>
+            function startTimer(total) {
+                function tick() {
+                    const h = Math.floor(total / 3600),
+                        m = Math.floor((total % 3600) / 60),
+                        s = total % 60;
+                    const f = (n) => String(n).padStart(2, "0");
+                    document.getElementById("h").textContent = f(h);
+                    document.getElementById("m").textContent = f(m);
+                    document.getElementById("s").textContent = f(s);
+                    document.getElementById("ph").textContent = f(h);
+                    document.getElementById("pm").textContent = f(m);
+                    document.getElementById("ps").textContent = f(s);
+                    if (total > 0) {
+                        total--;
+                        setTimeout(tick, 1000);
+                    }
+                }
+                tick();
+            }
+            startTimer(23 * 3600 + 5 * 60 + 23);
+
+            function toggleFaq(el) {
+                el.parentElement.classList.toggle("open");
+            }
+
+            const obs = new IntersectionObserver(
+                (entries) => {
+                    entries.forEach((e) => {
+                        if (e.isIntersecting) {
+                            e.target.classList.add("visible");
+                            obs.unobserve(e.target);
+                        }
+                    });
+                },
+                { threshold: 0.1 }
+            );
+            document.querySelectorAll(".reveal").forEach((r) => obs.observe(r));
+        </script>
+    </body>
+</html>
